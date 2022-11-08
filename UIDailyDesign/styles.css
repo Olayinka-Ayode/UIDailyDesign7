@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1A194D;
+}
+
+body {
+  background-color: #e5e5e5;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #e8e8fd;
+  width: 1600px;
+  height: 1200px;
+  z-index: 0;
+}
+
+.back-side {
+  content: "";
+  width: 276px;
+  height: 1009px;
+  border-radius: 46px;
+  background-color: #ee4d38;
+  position: absolute;
+  left: 1199px;
+  top: 378px;
+  z-index: -1;
+}
+
+.card {
+  width: 1319px;
+  height: 879px;
+  background-color: #fdfdff;
+  z-index: 1;
+  position: relative;
+  top: 160px;
+  left: 140px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.side-bar {
+  min-height: 879px;
+  max-width: 260px;
+  background-color: #f8f8ff;
+  border-radius: inherit;
+  display: inline-block;
+}
+
+img[width="70px"] {
+  border-radius: 17px;
+}
+
+.profile {
+  min-width: 179px;
+  padding-top: 58px;
+  padding-left: 38px;
+}
+
+.username {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  top: -45px;
+  left: 10px;
+}
+
+.gamertag {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+  bottom: 40px;
+  left: 83px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 16px;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 8px 108px 8px 16px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+.fa-solid,
+.fa-brands {
+  transform: scale(1.5);
+  padding-right: 10px;
+}
+
+.fa-lock {
+  margin-right: 4px;
+}
+
+.fa-envelope {
+  margin-right: 2.5px;
+}
+
+.fa-intercom {
+  margin-right: 7px;
+}
+
+.side-bar p {
+  position: relative;
+  bottom: -350px;
+  margin-left: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.click {
+  content: "";
+  height: 48px;
+  width: 6px;
+  border-radius: 24px;
+  background-color: #ee6338;
+  position: relative;
+  top: 45px;
+  left: 20px;
+}
+
+.body {
+  position: relative;
+  top: -820px;
+  left: 330px;
+}
+
+.body h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 60px;
+}
+
+.history {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 4px;
+}
+
+.mgt {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 60px;
+}
+
+tr th {
+  padding-right: 168px;
+  padding-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #1A194D;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+tbody tr td {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.dld {
+  border: 1px solid #CBCBD9;
+  border-radius: 8px;
+  padding-bottom: 0px;
+  padding: 8px 16px;
+}
+
+.rep {
+  padding-right: 36px;
+}
+
+.active {
+  box-shadow: 0px 8px 19px rgba(223, 223, 253, 0.6);
+}
+
+a[href="#"] {
+  color: #EE6338;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  top: 16px;
+}
+
+h2 {
+  margin-top: 83px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A194D;
+  padding-bottom: 8px;
+}
+
+figure {
+  margin-top: 32px;
+}
+
+table {
+  margin-bottom: 30px;
+}
+
+.link {
+  margin-bottom: 130px;
+}
+
+img[alt="visa"] {
+  border: 1px solid #CBCBD9;
+  border-radius: 6px;
+}
+
+.caption {
+  position: relative;
+  top: -32px;
+  left: 90px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.visa {
+  padding-right: 250px;
+}
+
+.remove {
+  padding: 8px 16px;
+  border: 1px solid #CBCBD9;
+  border-radius: 8px;
+}
+
+aside {
+  background-color: #EE4D38;
+  max-width: 258px;
+  min-height: 221px;
+  text-align: center;
+  position: relative;
+  top: -1500px;
+  left: 1000px;
+  border-radius: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+aside * {
+  color: #FFF;
+}
+
+.sub {
+  padding: 32px;
+  text-align: left;
+}
+
+.sub .plan {
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+
+.sub h3 {
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.sub .renewal {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 4px 0px 16px 0px;
+}
+
+input[type="button"] {
+  padding: 8px 16px;
+  background-color: inherit;
+  border: 0.1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
